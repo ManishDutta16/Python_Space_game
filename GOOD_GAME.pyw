@@ -7,7 +7,7 @@ BULL_VELOCITY = 2
 DISPLAY = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("SPACE WAR")
 WALL_IMAGE = pygame.transform.scale(pygame.image.load(os.path.join( 'spaceimg.jpg')), (WIDTH, HEIGHT))
-SPACESHIP_IMAGE = pygame.transform.scale(pygame.image.load(os.path.join('HMM.png')), (200, 200))
+SPACESHIP_IMAGE = pygame.transform.scale(pygame.image.load(os.path.join('SPACESHIP_IMG.png')), (200, 200))
 BULLET_IMAGE = pygame.transform.rotate(pygame.transform.scale(pygame.image.load(os.path.join('bullet.png')), (85, 45)), 90)
 def draw(spaceship_rect, bullet_list):
     DISPLAY.blit(WALL_IMAGE, (0, 0))
